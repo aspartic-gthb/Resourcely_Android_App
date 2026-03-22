@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dreamy Sky Palette from Figma -->
+    <color name="colorPrimary">#7A77FF</color>
+    <color name="colorPrimaryDark">#5E5CE6</color>
+    <color name="colorAccent">#FF7EB3</color>
+
+    <color name="sky_blue">#85D7FF</color>
+    <color name="sky_purple">#C3A5FE</color>
+    <color name="sky_pink">#FFBEE3</color>
+
+    <color name="background">#F8FAFF</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="onSurface">#2D3436</color>
+    <color name="onSurfaceVariant">#636E72</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Subject Card Backgrounds -->
+    <color name="maths_bg">#F0F4FF</color>
+    <color name="chemistry_bg">#FFF0F4</color>
+    <color name="physics_bg">#F0FFF8</color>
+    <color name="english_bg">#F9F0FF</color>
+    <color name="biology_bg">#FFF9F0</color>
+    <color name="humanities_bg">#F0FFFD</color>
+
+    <!-- Multi-color Gradient -->
+    <color name="grad_start">#85D7FF</color>
+    <color name="grad_mid">#C3A5FE</color>
+    <color name="grad_end">#FFBEE3</color>
+</resources>
