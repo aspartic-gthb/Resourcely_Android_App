@@ -1,79 +1,81 @@
 📚 Resourcely: Streamline Your Learning Workflow
-Resourcely is an all-in-one productivity companion built for the modern student. It transforms the chaotic mess of bookmarks, drive links, and scattered notes into a structured "Study Vault," while simultaneously keeping your attendance and weekly schedule on track with a premium, aesthetic interface.
+
+Resourcely is an all-in-one productivity companion designed for modern students. It transforms scattered bookmarks, drive links, and notes into a structured Study Vault, while also helping you stay on top of attendance and weekly schedules — all wrapped in a clean, aesthetic interface.
+
 🌟 Key Features
-1. The Study Vault (Resource Management)
-•
-Centralized Hub: Save Web Links, Google Drive documents, and Local File paths in one place.
-•
-Intelligent Categorization: Automatically group materials by subject (Maths, Physics, etc.).
-•
-Favicon Integration: Powered by Glide, the app automatically fetches website icons for a professional, visual browsing experience.
-•
-Live Search: Instant discovery across titles, categories, and tags.
-•
-Importance Tracker: Star your "must-study" materials to pin them to the top.
-2. Smart Attendance Tracker
-•
-One-Tap Updates: Dedicated "Attended" and "Missed" buttons for frictionless tracking.
-•
-Dynamic Analytics: Real-time percentage calculation with a color-coded LinearProgressIndicator.
-•
-Status Advisor: The app calculates exactly how many more classes you need to attend to safely hit the 75% threshold.
-•
-Visual Feedback: Cards turn Red (Warning) or Green (Safe) based on your current standing.
-3. Weekly Timetable
-•
-Timeline View: A clean, tabbed interface to view your daily classes and labs.
-•
-Auto-Day Detection: Opens to the current day of the week automatically.
-•
-Precision Entry: Integrated native Time Pickers for managing class slots.
-4. Aesthetic UI/UX
-•
-Branding: A witty, student-centric personality with relatable empty-state messages.
-•
-Modern Design: Built using Material Design 3 with a smooth, "Dreamy Sky" color palette.
+1. 📂 Study Vault (Resource Management)
+Centralized Hub
+Store web links, Google Drive documents, and local file paths in one place.
+Intelligent Categorization
+Automatically organizes resources by subject (Maths, Physics, etc.).
+Favicon Integration
+Uses Glide to fetch website icons for a polished browsing experience.
+Live Search
+Instantly search across titles, categories, and tags.
+Importance Tracker
+Star important resources and pin them to the top.
+2. 📊 Smart Attendance Tracker
+One-Tap Updates
+Simple Attended and Missed buttons for quick logging.
+Dynamic Analytics
+Real-time attendance percentage with a color-coded progress bar.
+Status Advisor
+Calculates how many more classes are needed to reach the 75% threshold.
+Visual Feedback
+🔴 Red → Warning
+🟢 Green → Safe
+3. 🗓️ Weekly Timetable
+Timeline View
+Clean tab-based interface for daily schedules.
+Auto-Day Detection
+Automatically opens the current day.
+Precision Entry
+Built-in time pickers for accurate scheduling.
+4. 🎨 Aesthetic UI/UX
+Brand Personality
+Student-friendly tone with relatable empty-state messages.
+Modern Design
+Built using Material Design 3 with a Dreamy Sky color palette.
 ⚖️ Instructions for Judges
-To evaluate the application, please follow these steps:
 🚀 Running the App
-1.
-Environment: Open the project in Android Studio Hedgehog (or newer).
-2.
-Sync: Allow Gradle to sync dependencies (ViewBinding, Glide, Material Components).
-3.
-Build: Run the app on an Emulator (API 26+) or a physical device.
-4.
-Seed Data: Upon first launch, the app automatically seeds the "Study Vault" with sample resources to demonstrate the UI.
+Open the project in Android Studio Hedgehog (or newer)
+Let Gradle sync dependencies
+Run the app on:
+Emulator (API 26+) OR
+Physical device
+On first launch, sample data is auto-seeded in the Study Vault
 🔍 Key Implementation Files
-•
-Database Architecture: com.studyorganizer.DatabaseHelper (Manages 3 distinct tables: Resources, Attendance, Timetable).
-•
-Logic Hubs:
-◦
-AttendanceActivity.kt: Handles the math for the 75% attendance logic.
-◦
-TimetableActivity.kt: Manages the tabbed daily schedule system.
-◦
-ResourceAdapter.kt: Implements the Glide favicon fetching logic.
-🛠️ Functionality Check
-•
-Navigate to Weekly Timetable via the sidebar to see the current day's schedule.
-•
-Visit Attendance Tracker to interact with the +/- buttons and see the progress bars update in real-time.
-•
-Use the Search Bar on the Home Screen to filter the seeded sample data.
-🛠 Technical Stack
-•
-Language: Kotlin
-•
-Database: SQLite (Local-first, no cloud dependency)
-•
-View Architecture: ViewBinding
-•
-UI Components: Material Design 3, CoordinatorLayout, RecyclerView
-•
-Libraries: Glide (Favicon rendering), Material Components
-✍️ Developed By
+Database Architecture
+DatabaseHelper
+→ Manages:
+Resources Table
+Attendance Table
+Timetable Table
+Core Logic Files
+AttendanceActivity.kt → Attendance calculation logic (75% rule)
+TimetableActivity.kt → Daily schedule + tab system
+ResourceAdapter.kt → Glide-based favicon handling
+🛠️ Functionality Checklist
+Navigate to Weekly Timetable → View current day schedule
+Open Attendance Tracker → Use buttons and observe real-time updates
+Use Search Bar → Filter resources instantly
+🛠️ Technical Stack
+Category	Technology Used
+Language	Kotlin
+Database	SQLite (Local-first)
+Architecture	ViewBinding
+UI Components	Material Design 3, RecyclerView, CoordinatorLayout
+Libraries	Glide (Favicon Rendering), Material Components
+👨‍💻 Developed By
+
 Anirudh & Tinklejit
 National Institute of Technology (NIT), Silchar
-Made with ❤️ for the SmartDroid Competition(Under ECS's Spectrum Tech Module)
+
+🏆 Built For
+
+SmartDroid Competition
+Under ECS Spectrum Tech Module
+
+❤️ Acknowledgment
+
+Made with dedication for students who want a cleaner, smarter way to manage their academic workflow.
