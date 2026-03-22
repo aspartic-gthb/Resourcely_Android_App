@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@android:drawable/ic_menu_today"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_timetable"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Weekly Timetable" />
+        <item
+            android:id="@+id/nav_attendance"
+            android:icon="@android:drawable/ic_menu_my_calendar"
+            android:title="Attendance Tracker" />
+        <item
+            android:id="@+id/nav_important"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="Important" />
+    </group>
+
+    <item android:title="Subjects">
+        <menu>
+            <item
+                android:id="@+id/nav_maths"
+                android:icon="@drawable/ic_maths"
+                android:title="Mathematics" />
+            <item
+                android:id="@+id/nav_chemistry"
+                android:icon="@drawable/ic_chemistry"
+                android:title="Chemistry" />
+            <item
+                android:id="@+id/nav_physics"
+                android:icon="@drawable/ic_link"
+                android:title="Physics" />
+            <item
+                android:id="@+id/nav_biology"
+                android:icon="@drawable/ic_file"
+                android:title="Biology" />
+        </menu>
+    </item>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@android:drawable/ic_menu_preferences"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@android:drawable/ic_menu_info_details"
+                android:title="About" />
+        </menu>
+    </item>
+</menu>

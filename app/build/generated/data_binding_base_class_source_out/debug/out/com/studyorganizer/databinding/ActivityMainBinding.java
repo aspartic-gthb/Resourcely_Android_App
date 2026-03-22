@@ -11,13 +11,14 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.Toolbar;
-import androidx.coordinatorlayout.widget.CoordinatorLayout;
+import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.google.android.material.appbar.AppBarLayout;
 import com.google.android.material.chip.ChipGroup;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.navigation.NavigationView;
 import com.studyorganizer.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -25,7 +26,7 @@ import java.lang.String;
 
 public final class ActivityMainBinding implements ViewBinding {
   @NonNull
-  private final CoordinatorLayout rootView;
+  private final DrawerLayout rootView;
 
   @NonNull
   public final AppBarLayout appBarLayout;
@@ -49,6 +50,9 @@ public final class ActivityMainBinding implements ViewBinding {
   public final ChipGroup chipGroup;
 
   @NonNull
+  public final DrawerLayout drawerLayout;
+
+  @NonNull
   public final FloatingActionButton fabAdd;
 
   @NonNull
@@ -58,13 +62,22 @@ public final class ActivityMainBinding implements ViewBinding {
   public final LinearLayout llHeroButtons;
 
   @NonNull
+  public final NavigationView navigationView;
+
+  @NonNull
   public final RecyclerView recyclerView;
 
   @NonNull
   public final Toolbar toolbar;
 
   @NonNull
+  public final TextView tvCategoriesHeader;
+
+  @NonNull
   public final TextView tvEmpty;
+
+  @NonNull
+  public final TextView tvHeroDesc;
 
   @NonNull
   public final TextView tvHeroSub;
@@ -72,14 +85,15 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final TextView tvHeroTitle;
 
-  private ActivityMainBinding(@NonNull CoordinatorLayout rootView,
-      @NonNull AppBarLayout appBarLayout, @NonNull ItemCategoryCardBinding catBiology,
-      @NonNull ItemCategoryCardBinding catChemistry, @NonNull ItemCategoryCardBinding catMaths,
-      @NonNull ItemCategoryCardBinding catPhysics, @NonNull GridLayout categoryGrid,
-      @NonNull ChipGroup chipGroup, @NonNull FloatingActionButton fabAdd,
+  private ActivityMainBinding(@NonNull DrawerLayout rootView, @NonNull AppBarLayout appBarLayout,
+      @NonNull ItemCategoryCardBinding catBiology, @NonNull ItemCategoryCardBinding catChemistry,
+      @NonNull ItemCategoryCardBinding catMaths, @NonNull ItemCategoryCardBinding catPhysics,
+      @NonNull GridLayout categoryGrid, @NonNull ChipGroup chipGroup,
+      @NonNull DrawerLayout drawerLayout, @NonNull FloatingActionButton fabAdd,
       @NonNull ImageView ivIllustration, @NonNull LinearLayout llHeroButtons,
-      @NonNull RecyclerView recyclerView, @NonNull Toolbar toolbar, @NonNull TextView tvEmpty,
-      @NonNull TextView tvHeroSub, @NonNull TextView tvHeroTitle) {
+      @NonNull NavigationView navigationView, @NonNull RecyclerView recyclerView,
+      @NonNull Toolbar toolbar, @NonNull TextView tvCategoriesHeader, @NonNull TextView tvEmpty,
+      @NonNull TextView tvHeroDesc, @NonNull TextView tvHeroSub, @NonNull TextView tvHeroTitle) {
     this.rootView = rootView;
     this.appBarLayout = appBarLayout;
     this.catBiology = catBiology;
@@ -88,19 +102,23 @@ public final class ActivityMainBinding implements ViewBinding {
     this.catPhysics = catPhysics;
     this.categoryGrid = categoryGrid;
     this.chipGroup = chipGroup;
+    this.drawerLayout = drawerLayout;
     this.fabAdd = fabAdd;
     this.ivIllustration = ivIllustration;
     this.llHeroButtons = llHeroButtons;
+    this.navigationView = navigationView;
     this.recyclerView = recyclerView;
     this.toolbar = toolbar;
+    this.tvCategoriesHeader = tvCategoriesHeader;
     this.tvEmpty = tvEmpty;
+    this.tvHeroDesc = tvHeroDesc;
     this.tvHeroSub = tvHeroSub;
     this.tvHeroTitle = tvHeroTitle;
   }
 
   @Override
   @NonNull
-  public CoordinatorLayout getRoot() {
+  public DrawerLayout getRoot() {
     return rootView;
   }
 
@@ -171,6 +189,8 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      DrawerLayout drawerLayout = (DrawerLayout) rootView;
+
       id = R.id.fabAdd;
       FloatingActionButton fabAdd = ViewBindings.findChildViewById(rootView, id);
       if (fabAdd == null) {
@@ -189,6 +209,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.navigationView;
+      NavigationView navigationView = ViewBindings.findChildViewById(rootView, id);
+      if (navigationView == null) {
+        break missingId;
+      }
+
       id = R.id.recyclerView;
       RecyclerView recyclerView = ViewBindings.findChildViewById(rootView, id);
       if (recyclerView == null) {
@@ -201,9 +227,21 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tvCategoriesHeader;
+      TextView tvCategoriesHeader = ViewBindings.findChildViewById(rootView, id);
+      if (tvCategoriesHeader == null) {
+        break missingId;
+      }
+
       id = R.id.tvEmpty;
       TextView tvEmpty = ViewBindings.findChildViewById(rootView, id);
       if (tvEmpty == null) {
+        break missingId;
+      }
+
+      id = R.id.tvHeroDesc;
+      TextView tvHeroDesc = ViewBindings.findChildViewById(rootView, id);
+      if (tvHeroDesc == null) {
         break missingId;
       }
 
@@ -219,10 +257,10 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((CoordinatorLayout) rootView, appBarLayout, binding_catBiology,
+      return new ActivityMainBinding((DrawerLayout) rootView, appBarLayout, binding_catBiology,
           binding_catChemistry, binding_catMaths, binding_catPhysics, categoryGrid, chipGroup,
-          fabAdd, ivIllustration, llHeroButtons, recyclerView, toolbar, tvEmpty, tvHeroSub,
-          tvHeroTitle);
+          drawerLayout, fabAdd, ivIllustration, llHeroButtons, navigationView, recyclerView,
+          toolbar, tvCategoriesHeader, tvEmpty, tvHeroDesc, tvHeroSub, tvHeroTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

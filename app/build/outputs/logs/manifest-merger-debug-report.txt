@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\SmartDroid\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from D:\SmartDroid\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from D:\SmartDroid\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from D:\SmartDroid\app\src\main\AndroidManifest.xml:2:1-38:12
+ADDED from D:\SmartDroid\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from D:\SmartDroid\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from D:\SmartDroid\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from D:\SmartDroid\app\src\main\AndroidManifest.xml:2:1-63:12
 MERGED from [androidx.databinding:viewbinding:8.13.2] C:\Users\aspartic\.gradle\caches\8.13\transforms\ba5c5689facacc50d6774bfa8409b6fc\transformed\jetified-viewbinding-8.13.2\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\aspartic\.gradle\caches\8.13\transforms\6887ff90426dc88a165863bf136cc5f6\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\aspartic\.gradle\caches\8.13\transforms\302090272ae931057406c3af5a1aef6e\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
@@ -82,8 +82,8 @@ ADDED from D:\SmartDroid\app\src\main\AndroidManifest.xml:9:5-75
 	android:name
 		ADDED from D:\SmartDroid\app\src\main\AndroidManifest.xml:9:22-72
 application
-ADDED from D:\SmartDroid\app\src\main\AndroidManifest.xml:11:5-36:19
-INJECTED from D:\SmartDroid\app\src\main\AndroidManifest.xml:11:5-36:19
+ADDED from D:\SmartDroid\app\src\main\AndroidManifest.xml:11:5-61:19
+INJECTED from D:\SmartDroid\app\src\main\AndroidManifest.xml:11:5-61:19
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\aspartic\.gradle\caches\8.13\transforms\6887ff90426dc88a165863bf136cc5f6\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\aspartic\.gradle\caches\8.13\transforms\6887ff90426dc88a165863bf136cc5f6\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\aspartic\.gradle\caches\8.13\transforms\302090272ae931057406c3af5a1aef6e\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -146,6 +146,46 @@ ADDED from D:\SmartDroid\app\src\main\AndroidManifest.xml:30:9-34:58
 		ADDED from D:\SmartDroid\app\src\main\AndroidManifest.xml:32:13-37
 	android:name
 		ADDED from D:\SmartDroid\app\src\main\AndroidManifest.xml:31:13-52
+activity#com.studyorganizer.CategoryViewerActivity
+ADDED from D:\SmartDroid\app\src\main\AndroidManifest.xml:36:9-39:58
+	android:parentActivityName
+		ADDED from D:\SmartDroid\app\src\main\AndroidManifest.xml:39:13-55
+	android:exported
+		ADDED from D:\SmartDroid\app\src\main\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from D:\SmartDroid\app\src\main\AndroidManifest.xml:37:13-51
+activity#com.studyorganizer.AttendanceActivity
+ADDED from D:\SmartDroid\app\src\main\AndroidManifest.xml:41:9-44:58
+	android:parentActivityName
+		ADDED from D:\SmartDroid\app\src\main\AndroidManifest.xml:44:13-55
+	android:exported
+		ADDED from D:\SmartDroid\app\src\main\AndroidManifest.xml:43:13-37
+	android:name
+		ADDED from D:\SmartDroid\app\src\main\AndroidManifest.xml:42:13-47
+activity#com.studyorganizer.TimetableActivity
+ADDED from D:\SmartDroid\app\src\main\AndroidManifest.xml:46:9-49:58
+	android:parentActivityName
+		ADDED from D:\SmartDroid\app\src\main\AndroidManifest.xml:49:13-55
+	android:exported
+		ADDED from D:\SmartDroid\app\src\main\AndroidManifest.xml:48:13-37
+	android:name
+		ADDED from D:\SmartDroid\app\src\main\AndroidManifest.xml:47:13-46
+activity#com.studyorganizer.SettingsActivity
+ADDED from D:\SmartDroid\app\src\main\AndroidManifest.xml:51:9-54:58
+	android:parentActivityName
+		ADDED from D:\SmartDroid\app\src\main\AndroidManifest.xml:54:13-55
+	android:exported
+		ADDED from D:\SmartDroid\app\src\main\AndroidManifest.xml:53:13-37
+	android:name
+		ADDED from D:\SmartDroid\app\src\main\AndroidManifest.xml:52:13-45
+activity#com.studyorganizer.AboutActivity
+ADDED from D:\SmartDroid\app\src\main\AndroidManifest.xml:56:9-59:58
+	android:parentActivityName
+		ADDED from D:\SmartDroid\app\src\main\AndroidManifest.xml:59:13-55
+	android:exported
+		ADDED from D:\SmartDroid\app\src\main\AndroidManifest.xml:58:13-37
+	android:name
+		ADDED from D:\SmartDroid\app\src\main\AndroidManifest.xml:57:13-42
 uses-sdk
 INJECTED from D:\SmartDroid\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\SmartDroid\app\src\main\AndroidManifest.xml

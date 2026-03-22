@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\aspartic\\.gradle\\daemon\\8.13\\com.studyorganizer.app-debug-33:\\color_chip_text_selector.xml.flat",
-        "source": "C:\\Users\\aspartic\\.gradle\\daemon\\8.13\\com.studyorganizer.app-main-35:\\color\\chip_text_selector.xml"
+        "merged": "C:\\Users\\aspartic\\.gradle\\daemon\\8.13\\com.studyorganizer.app-debug-33:\\drawable_ic_app_logo.xml.flat",
+        "source": "C:\\Users\\aspartic\\.gradle\\daemon\\8.13\\com.studyorganizer.app-main-35:\\drawable\\ic_app_logo.xml"
     },
     {
-        "merged": "com.studyorganizer.app-debug-33:/layout_activity_main.xml.flat",
-        "source": "com.studyorganizer.app-main-35:/layout/activity_main.xml"
+        "merged": "C:\\Users\\aspartic\\.gradle\\daemon\\8.13\\com.studyorganizer.app-debug-33:\\color_chip_text_selector.xml.flat",
+        "source": "C:\\Users\\aspartic\\.gradle\\daemon\\8.13\\com.studyorganizer.app-main-35:\\color\\chip_text_selector.xml"
     },
     {
         "merged": "C:\\Users\\aspartic\\.gradle\\daemon\\8.13\\com.studyorganizer.app-debug-33:\\drawable_ic_maths.xml.flat",
@@ -14,6 +14,10 @@
     {
         "merged": "C:\\Users\\aspartic\\.gradle\\daemon\\8.13\\com.studyorganizer.app-debug-33:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\aspartic\\.gradle\\daemon\\8.13\\com.studyorganizer.app-main-35:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\aspartic\\.gradle\\daemon\\8.13\\com.studyorganizer.app-debug-33:\\layout_activity_category_viewer.xml.flat",
+        "source": "C:\\Users\\aspartic\\.gradle\\daemon\\8.13\\com.studyorganizer.app-main-35:\\layout\\activity_category_viewer.xml"
     },
     {
         "merged": "C:\\Users\\aspartic\\.gradle\\daemon\\8.13\\com.studyorganizer.app-debug-33:\\drawable_ic_drive.xml.flat",
@@ -32,12 +36,20 @@
         "source": "C:\\Users\\aspartic\\.gradle\\daemon\\8.13\\com.studyorganizer.app-main-35:\\drawable\\ic_star_filled.xml"
     },
     {
+        "merged": "C:\\Users\\aspartic\\.gradle\\daemon\\8.13\\com.studyorganizer.app-debug-33:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\aspartic\\.gradle\\daemon\\8.13\\com.studyorganizer.app-main-35:\\layout\\activity_main.xml"
+    },
+    {
         "merged": "C:\\Users\\aspartic\\.gradle\\daemon\\8.13\\com.studyorganizer.app-debug-33:\\color_chip_bg_selector.xml.flat",
         "source": "C:\\Users\\aspartic\\.gradle\\daemon\\8.13\\com.studyorganizer.app-main-35:\\color\\chip_bg_selector.xml"
     },
     {
-        "merged": "C:\\Users\\aspartic\\.gradle\\daemon\\8.13\\com.studyorganizer.app-debug-33:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\aspartic\\.gradle\\daemon\\8.13\\com.studyorganizer.app-main-35:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\aspartic\\.gradle\\daemon\\8.13\\com.studyorganizer.app-debug-33:\\layout_activity_timetable.xml.flat",
+        "source": "C:\\Users\\aspartic\\.gradle\\daemon\\8.13\\com.studyorganizer.app-main-35:\\layout\\activity_timetable.xml"
+    },
+    {
+        "merged": "com.studyorganizer.app-debug-33:/layout_activity_about.xml.flat",
+        "source": "com.studyorganizer.app-main-35:/layout/activity_about.xml"
     },
     {
         "merged": "C:\\Users\\aspartic\\.gradle\\daemon\\8.13\\com.studyorganizer.app-debug-33:\\layout_activity_add_edit.xml.flat",
@@ -52,16 +64,44 @@
         "source": "C:\\Users\\aspartic\\.gradle\\daemon\\8.13\\com.studyorganizer.app-main-35:\\drawable\\ic_chemistry.xml"
     },
     {
+        "merged": "C:\\Users\\aspartic\\.gradle\\daemon\\8.13\\com.studyorganizer.app-debug-33:\\layout_activity_attendance.xml.flat",
+        "source": "C:\\Users\\aspartic\\.gradle\\daemon\\8.13\\com.studyorganizer.app-main-35:\\layout\\activity_attendance.xml"
+    },
+    {
         "merged": "C:\\Users\\aspartic\\.gradle\\daemon\\8.13\\com.studyorganizer.app-debug-33:\\drawable_ic_star_outline.xml.flat",
         "source": "C:\\Users\\aspartic\\.gradle\\daemon\\8.13\\com.studyorganizer.app-main-35:\\drawable\\ic_star_outline.xml"
+    },
+    {
+        "merged": "C:\\Users\\aspartic\\.gradle\\daemon\\8.13\\com.studyorganizer.app-debug-33:\\menu_nav_menu.xml.flat",
+        "source": "C:\\Users\\aspartic\\.gradle\\daemon\\8.13\\com.studyorganizer.app-main-35:\\menu\\nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\aspartic\\.gradle\\daemon\\8.13\\com.studyorganizer.app-debug-33:\\layout_nav_header.xml.flat",
+        "source": "C:\\Users\\aspartic\\.gradle\\daemon\\8.13\\com.studyorganizer.app-main-35:\\layout\\nav_header.xml"
     },
     {
         "merged": "C:\\Users\\aspartic\\.gradle\\daemon\\8.13\\com.studyorganizer.app-debug-33:\\drawable_ic_link.xml.flat",
         "source": "C:\\Users\\aspartic\\.gradle\\daemon\\8.13\\com.studyorganizer.app-main-35:\\drawable\\ic_link.xml"
     },
     {
+        "merged": "C:\\Users\\aspartic\\.gradle\\daemon\\8.13\\com.studyorganizer.app-debug-33:\\layout_item_attendance.xml.flat",
+        "source": "C:\\Users\\aspartic\\.gradle\\daemon\\8.13\\com.studyorganizer.app-main-35:\\layout\\item_attendance.xml"
+    },
+    {
         "merged": "C:\\Users\\aspartic\\.gradle\\daemon\\8.13\\com.studyorganizer.app-debug-33:\\menu_main_menu.xml.flat",
         "source": "C:\\Users\\aspartic\\.gradle\\daemon\\8.13\\com.studyorganizer.app-main-35:\\menu\\main_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\aspartic\\.gradle\\daemon\\8.13\\com.studyorganizer.app-debug-33:\\layout_item_timetable.xml.flat",
+        "source": "C:\\Users\\aspartic\\.gradle\\daemon\\8.13\\com.studyorganizer.app-main-35:\\layout\\item_timetable.xml"
+    },
+    {
+        "merged": "C:\\Users\\aspartic\\.gradle\\daemon\\8.13\\com.studyorganizer.app-debug-33:\\layout_dialog_add_timetable.xml.flat",
+        "source": "C:\\Users\\aspartic\\.gradle\\daemon\\8.13\\com.studyorganizer.app-main-35:\\layout\\dialog_add_timetable.xml"
+    },
+    {
+        "merged": "com.studyorganizer.app-debug-33:/layout_activity_settings.xml.flat",
+        "source": "com.studyorganizer.app-main-35:/layout/activity_settings.xml"
     },
     {
         "merged": "C:\\Users\\aspartic\\.gradle\\daemon\\8.13\\com.studyorganizer.app-debug-33:\\drawable_header_gradient.xml.flat",
