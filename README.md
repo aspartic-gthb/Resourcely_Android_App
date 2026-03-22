@@ -67,16 +67,17 @@ Database	SQLite (Local-first)
 Architecture	ViewBinding
 UI Components	Material Design 3, RecyclerView, CoordinatorLayout
 Libraries	Glide (Favicon Rendering), Material Components
-👨‍💻 Developed By
 
-Anirudh & Tinklejit
-National Institute of Technology (NIT), Silchar
+### 👨‍💻 Developed By
+### Anirudh & Tinklejit
+### National Institute of Technology (NIT), Silchar
 
-🏆 Built For
 
-SmartDroid Competition
-Under ECS Spectrum Tech Module
+### 🏆 Built For
 
-❤️ Acknowledgment
+### SmartDroid Competition
+### Under ECS Spectrum Tech Module
 
-Made with dedication for students who want a cleaner, smarter way to manage their academic workflow.
+### ❤️ Acknowledgment
+
+### Made with dedication for students who want a cleaner, smarter way to manage their academic workflow.
