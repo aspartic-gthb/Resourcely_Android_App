@@ -1,5 +1,6 @@
-<br>📚 Resourcely: Streamline Your Learning Workflow
-</br>
+# 📚 RESOURCELY
+### Streamline Your Learning Workflow
+
 Resourcely is an all-in-one productivity companion designed for modern students. It transforms scattered bookmarks, drive links, and notes into a structured Study Vault, while also helping you stay on top of attendance and weekly schedules — all wrapped in a clean, aesthetic interface.
 
 🌟 Key Features
